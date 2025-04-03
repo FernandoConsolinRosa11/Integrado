@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Vingativos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="icon" href="images/icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" title="home" class="header-logo">
+                <img src="images/logo.png" alt="Marvel">
+            </a>
+            <a href="javascript:mostrarmenu()" title="menu" class="header-menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html" title="home">Home</a></li>
+                    <li><a href="quadrinhos.html" title="quadrinhos">Quadrinhos</a></li>
+                    <li><a href="noticias.html" title="notícias">Notícias</a></li>
+                    <li><a href="contato.html" title="contato">Contato</a></li>
+                    <li><a href="download.html" title="download">Download</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner-mobile">
+        <img src="images/banner-mobile.jpg" alt="banner-mobile">
+        <img src="images/daredevil_logo.png" alt="daredevil" class="img">
+        <p>
+            <a href="demolidor.html" title="assista agora" class="btn">
+                Assista agora
+            </a>
+        </p>
+    </div>
+    <div class="banner-desktop">
+        <div class="flex">
+            <div class="col">
+                <img src="images/daredevil_logo.png" alt="demolidor">
+                <p><a href="demolidor.html" title="demolidor " class="btn">Assista agora</a></p>
+            </div>
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        function mostrarmenu(){
+            $(".header-nav").toggle();
+        }
+    </script>
+</body>
+</html>
